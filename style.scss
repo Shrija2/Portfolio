@@ -1,0 +1,144 @@
+$background-color: #B0B4F3;
+$heading-color:#071D42;
+body, html{
+    margin:0;
+    padding:0;
+    font-family: inter;
+}
+ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: $background-color;
+    padding:10px;
+    margin:0;
+    text-align: center;
+    color:$heading-color;
+    font-weight: bold;
+    font-size: 1.5rem; 
+}
+li:hover{
+    color:white;
+    cursor: pointer;
+}
+h1{
+    font-size: 3rem;
+    color:$heading-color;
+    text-transform: uppercase;
+    
+}
+a{
+    text-decoration: none;
+    color:$heading-color;
+}
+#main{
+    padding-left:2%;
+    padding-right:2%;
+
+    .introduction{
+        display: grid;
+        grid-template-columns: 65% 35%;
+    }
+    .welcome-image img{
+        object-fit: cover;
+        width:100%;
+    }
+    .welcome-text{
+        padding:5%;
+    }
+    h1{
+        color: $heading-color;
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
+
+#projects{
+    background-color: $background-color;
+    padding:3% 5% 2% 5%;
+   h1{
+    margin:0%;
+   }
+    h2{
+        font-size: 2rem;
+        color:white;
+        margin-top:0%;
+    }
+    img{
+        object-fit: cover;
+        width:80%;  
+    }
+    .img-scroll{
+        width:100%;
+    }
+    .image-container{
+        width:80%;
+    }
+    a{
+        padding:10px;
+        border-radius: 5px;
+        background-color: $heading-color;
+        color:white;
+        font-size: 1rem;
+        margin-right:4%;
+        text-decoration: none;
+    }
+    .project-grid{
+        display: grid;
+        grid-template-columns: 40% 75%;
+        margin:6% 0%;
+    }
+
+    .image-container{
+        overflow-y: auto;
+        overflow-x: hidden;
+        max-height:400px;
+    }
+    hr{
+        color:white;
+        border:solid 1px;
+        margin-top:5%;
+
+    }
+    p{
+        width:90%;
+        padding-bottom: 5%;
+        font-size: 1.1rem;
+    }
+}
+
+#skill{
+    padding:2% 5% 3% 5%;
+    .skill-list{
+        display: flex;
+        justify-content: space-between;
+    }
+    img{
+        width:50px;
+    }
+    figcaption{
+        text-align: center;
+    }
+    
+}
+
+#contact{
+    padding:3% 5%;
+    background-color: $background-color;
+
+    img{
+        width:2%;
+        margin-right:1%;
+    }
+    p{ 
+        display: inline;
+        padding-bottom: 2%;
+    }
+    div{
+        padding-bottom:2%;
+        justify-content: center;
+
+    }
+}

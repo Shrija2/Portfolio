@@ -15,7 +15,7 @@ ul{
     text-align: center;
     color:$heading-color;
     font-weight: bold;
-    font-size: 1.5rem; 
+    font-size: 1.2rem; 
 }
 li:hover{
     color:white;
@@ -142,3 +142,5 @@ a{
 
     }
 }
+
+@import 'mobile';

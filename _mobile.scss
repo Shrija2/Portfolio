@@ -1,0 +1,45 @@
+@media(max-width:600px){
+    
+h1{
+    font-size: 2rem;
+}
+#main{
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+}
+
+#projects{
+h2{
+    font-size: 1.5rem;
+}
+.project-grid{
+    display: block;
+}
+
+.details{
+    margin-bottom:8%;
+}
+img{
+    width:100%;  
+}
+.image-container{
+    width:100%;
+}
+p{
+    width:100%;
+    font-size: 0.9rem;
+}
+}
+
+#skill{
+    .skill-list{
+        display:grid;
+        grid-template-columns: 30% 30% 30%;
+    }
+}
+}
+

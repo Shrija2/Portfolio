@@ -14,7 +14,7 @@ ul {
   text-align: center;
   color: #071D42;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 li:hover {
@@ -139,4 +139,39 @@ a {
 #contact div {
   padding-bottom: 2%;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  #main h1 {
+    font-size: 2rem;
+  }
+  #main p {
+    font-size: 0.9rem;
+  }
+  #projects h2 {
+    font-size: 1.5rem;
+  }
+  #projects .project-grid {
+    display: block;
+  }
+  #projects .details {
+    margin-bottom: 8%;
+  }
+  #projects img {
+    width: 100%;
+  }
+  #projects .image-container {
+    width: 100%;
+  }
+  #projects p {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  #skill .skill-list {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
 }

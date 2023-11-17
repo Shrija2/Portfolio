@@ -8,29 +8,30 @@ ul {
   list-style-type: none;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  background-color: #B0B4F3;
-  padding: 10px;
+  padding: 40px 5px 40px 5px;
   margin: 0;
   text-align: center;
   color: #071D42;
-  font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 li:hover {
-  color: white;
+  font-weight: 600;
   cursor: pointer;
 }
 
 h1 {
   font-size: 3rem;
   color: #071D42;
-  text-transform: uppercase;
 }
 
 a {
   text-decoration: none;
   color: #071D42;
+}
+
+hr {
+  margin: 0 5% 0 5%;
 }
 
 #main {
@@ -54,7 +55,7 @@ a {
   font-size: 3rem;
 }
 #main p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 #projects {
@@ -73,12 +74,14 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
   width: 80%;
+  border-radius: 20px;
 }
 #projects .img-scroll {
   width: 100%;
 }
 #projects .image-container {
   width: 80%;
+  border-radius: 20px;
 }
 #projects a {
   padding: 10px;
@@ -89,10 +92,14 @@ a {
   margin-right: 4%;
   text-decoration: none;
 }
+#projects a:hover {
+  background-color: white;
+  color: #071D42;
+}
 #projects .project-grid {
   display: grid;
   grid-template-columns: 40% 75%;
-  margin: 8% 0%;
+  margin: 10% 0%;
 }
 #projects .image-container {
   overflow-y: auto;
@@ -120,7 +127,7 @@ a {
 #skill img {
   width: 50px;
 }
-#skill figcaption {
+#skill figure {
   text-align: center;
 }
 

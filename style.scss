@@ -9,27 +9,28 @@ ul{
     list-style-type: none;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    background-color: $background-color;
-    padding:10px;
+    padding:40px 5px 40px 5px;
     margin:0;
     text-align: center;
     color:$heading-color;
-    font-weight: bold;
-    font-size: 1.2rem; 
+    font-size: 1.1rem; 
 }
 li:hover{
-    color:white;
+    font-weight: 600;
     cursor: pointer;
 }
 h1{
     font-size: 3rem;
     color:$heading-color;
-    text-transform: uppercase;
+
     
 }
 a{
     text-decoration: none;
     color:$heading-color;
+}
+hr{
+    margin:0 5% 0 5%;
 }
 #main{
     padding-left:2%;
@@ -51,7 +52,7 @@ a{
         font-size: 3rem;
     }
     p{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -68,13 +69,16 @@ a{
     }
     img{
         object-fit: cover;
-        width:80%;  
+        width:80%; 
+        border-radius: 20px;
     }
     .img-scroll{
         width:100%;
+        
     }
     .image-container{
         width:80%;
+        border-radius: 20px;
     }
     a{
         padding:10px;
@@ -85,10 +89,14 @@ a{
         margin-right:4%;
         text-decoration: none;
     }
+    a:hover{
+        background-color:white;
+        color:$heading-color;
+    }
     .project-grid{
         display: grid;
         grid-template-columns: 40% 75%;
-        margin:8% 0%;
+        margin:10% 0%;
     }
 
     .image-container{
@@ -118,7 +126,7 @@ a{
     img{
         width:50px;
     }
-    figcaption{
+    figure{
         text-align: center;
     }
     
